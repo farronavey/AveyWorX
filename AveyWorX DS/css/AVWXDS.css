@@ -1,0 +1,193 @@
+/*Container Styles ========== */
+
+body {
+  background-color: #616161;
+}
+
+nav {
+  height:60px;
+  /*border: 1px solid black;*/
+  /*padding-bottom: .5rem;*/
+  box-shadow:0 1px 20px 0px rgba(0,0,0,0.80);
+}
+
+nav.navbar-default {
+  border:none;
+  background-color:#273139;
+  /*padding-bottom:2px;*/
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  padding-top: 1.5em;
+  padding-bottom: 1.15em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #90A4AE;
+    border-bottom: 2px solid #90A4AE;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav{
+  background-color:rgba(39,49,57, 0.97);
+}
+
+.navbar-toggle {
+  top: .35em;
+}
+.navbar-collapse {
+ border:none;
+}
+
+#home {
+  padding-top: 9em;
+  padding-bottom: 4em;
+  background-color:#90A4AE;
+  background: 
+radial-gradient(circle, transparent 20%, #546E7A 20%, #546E7A 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, #546E7A 20%, #546E7A 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#78909C 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #78909C 8px, transparent 8px) -4px 0;
+background-color: #546E7A;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+  /*background-image: url('https://images.unsplash.com/photo-1519419166318-4f5c601b8e6c?ixlib=rb-0.3.5&s=281a47878ba7292df40256a164dd3058&auto=format&fit=crop&w=1334&q=80');*/
+  color: white;
+}
+
+
+#about {
+  border: 10px 0 10px 0 solid #37474F;
+  padding: 4em 0 2em 0;
+  background-color:#37474F;
+  /*background-image: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-0.3.5&s=4d16c68c80af67cc972bf951a7cae4f9&auto=format&fit=crop&w=1334&q=80");*/
+  color: white;
+  font-size: 18px;
+}
+
+
+#worx {
+  padding: 4em 0 7em 0;
+  /*background-image: url('https://images.unsplash.com/photo-1517174637803-6929e01b6e63?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24a8fc94192aa7a08c7a3575c7190980&auto=format&fit=crop&w=1534&q=80');*/
+  background-color: #90A4AE;
+  background: 
+radial-gradient(circle, transparent 20%, #546E7A 20%, #546E7A 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, #546E7A 20%, #546E7A 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#78909C 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #78909C 8px, transparent 8px) -4px 0;
+background-color: #546E7A;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+  z-index: 999;
+  color: white;
+}
+
+
+#contact {
+  background-color: #263238;
+  color: white;
+  padding: 3em 0;
+}
+
+footer {
+  background-color: #263238;
+  color: white;
+  padding: 2em 5em;
+  text-align:center;
+}
+/*Styles for 'home' ========= */
+
+#home ul {
+  padding-top: 1em;
+}
+
+#home ul a {
+  color: white;
+}
+
+#home ul li a:hover {
+  display: inline-block;
+  color: #263238;
+  position: relative;
+  top: -5px;
+}
+
+#home ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+
+#home ul li:first-child {
+  display: inline-block;
+  padding: 1em 1.5em 1em 0;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+/*Styles for 'about' ============ */
+
+#about img {
+  position: relative;
+  bottom: -2em;
+}
+/*Styles for 'worx' ======== */
+
+div.portfolio-entries {
+  padding-top: 5em;
+}
+
+div.portfolio-entries a {
+  color: white;
+}
+
+div.portfolio-entries a:hover {
+  position: relative;
+  top: -1em;
+  opacity: .60;
+}
+
+#worx div.caption {
+  display: block;
+  padding: 1.25em 0 .75em 0;
+  background-color: #37474F;
+}
+/*Styles for 'contact' =========== */
+
+#contact ul a {
+  color: white;
+}
+
+#contact ul li a:hover {
+  display: inline-block;
+  color: #90A4AE;
+  position: relative;
+  top: -5px;
+}
+
+#contact ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+
+#contact ul li:first-child {
+  display: inline-block;
+  padding: 1em 1.5em 1em 0;
+}
+/*Styles for Navbar ============= */
+
+.navbar-brand img {
+  display: inline-block;
+  position: relative;
+  top: -.30em;
+}
+
+.navbar-brand p {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  top: -2em;
+  padding-left: 3.5em;
+}
